@@ -2,18 +2,18 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]  # Runs when you push to the "main" branch
+    branches: [main]
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # Uses GitHub's server
+    runs-on: ubuntu-latest
 
     steps:
-      # Checkout your code
+      # Checkout code
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Deploy the "Gear Hub" folder to GitHub Pages
+      # Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
