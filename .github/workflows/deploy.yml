@@ -1,0 +1,21 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]  # Runs when you push to the "main" branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Uses GitHub's server
+
+    steps:
+      # Checkout your code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Deploy the "Gear Hub" folder to GitHub Pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./Gear Hub  # Path to your website folder
+          github_token: ${{ secrets.GITHUB_TOKEN }}
