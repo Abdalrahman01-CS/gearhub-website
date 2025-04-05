@@ -7,13 +7,15 @@ Overview
 Buying a car is a big decision — Gear Hub simplifies the research process by gathering all the essential information users need before making a purchase. From technical specifications to price comparisons, Gear Hub offers a smooth experience to help users make informed choices.
 
 Features
-	•	Browse cars by brand and model
-	•	View detailed specifications (engine, fuel, transmission, etc.)
-	•	Compare car prices
-	•	Explore car companies and their available models
-	•	Responsive and modern UI/UX design
+
+•	Browse cars by brand and model
+•	View detailed specifications (engine, fuel, transmission, etc.)
+•	Compare car prices
+•	Explore car companies and their available models
+•	Responsive and modern UI/UX design
 
 Tech Stack
-	•	HTML
-	•	CSS
-	•	JavaScript
+
+•	HTML
+•	CSS
+•	JavaScript
