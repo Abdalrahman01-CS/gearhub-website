@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main]  # Correct syntax for branches
 
 jobs:
   deploy:
@@ -15,7 +15,7 @@ jobs:
 
       # Deploy to GitHub Pages
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3  # Correct action name
         with:
-          publish_dir: ./Gear Hub  # Path to your website folder
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: "./Gear Hub"  # Add quotes for folders with spaces
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Fixed token syntax
