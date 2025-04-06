@@ -27,17 +27,19 @@ Buying a car is a big decision - Gear Hub simplifies the research process by gat
 ## 📦 Installation
 
 1. Clone the repository:
+bash
+git clone https://github.com/Abdairahman01-CS/gearhub-website.git
+
+
+2. Navigate to project directory:
+bash
+cd gearhub-website
+
+
+3. Open in your browser:
 ```bash
-git clone https://github.com/Abdalrahman01-CS/gearhub-website.git 
-3. Navigate to project directory:
-
- cd gearhub-website
-
-5. Open in your browser:
-
- start index.html # For Windows
- open index.html  # For Mac
-
+open index.html  # For Mac
+start index.html # For Windows
 
 ## 🌐 Live Demo
 Experience Gear Hub live:  
