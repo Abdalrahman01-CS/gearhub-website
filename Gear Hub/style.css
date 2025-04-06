@@ -989,6 +989,8 @@ footer p {
     letter-spacing: 2px;
 }
 
+/* Footer End  */
+
 /* ===== Base Styles ===== */
 * {
   box-sizing: border-box; /* Prevents overflow issues */
@@ -1022,4 +1024,67 @@ body {
   }
 }
 
-/* Footer End  */
+/* ===== Mobile Navigation ===== */
+.navbar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+}
+
+.menu {
+  display: none; /* Hide by default on mobile */
+}
+
+.menu.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger {
+  display: block; /* Show hamburger icon */
+  align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+}
+
+img {
+  max-width: 100%; /* Prevent overflow */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* For background images */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+}
+
+button, .btn {
+  min-width: 48px; /* Minimum touch target size */
+  min-height: 48px;
+  padding: 12px 24px;
+}
+
+input, select, textarea {
+  font-size: 16px; /* Prevent mobile zoom */
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+<!-- Use mobile-friendly input types -->
+<input type="tel" placeholder="Phone number">
+<input type="email" placeholder="Email">
