@@ -22,7 +22,7 @@ Buying a car is a big decision - Gear Hub simplifies the research process by gat
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- *Frontend*: HTML5, CSS3, Vanilla JavaScript
+- *Frontend*: HTML5, CSS3, JavaScript
 - *Responsive Design*: Mobile-first approach
 - *Performance*: Optimized assets and loading times
 
