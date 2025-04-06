@@ -1,6 +1,6 @@
 # 🚗 Gear Hub
 
-Gear Hub is a sleek and user-friendly front-end web application that bridges the gap between car enthusiasts and car companies. It provides users with a centralized platform to explore detailed car specifications, compare prices, and discover automotive brands - all in one place. 
+Gear Hub is a sleek and user-friendly front-end website that bridges the gap between car enthusiasts and car companies. It provides users with a centralized platform to explore detailed car specifications, compare prices, and discover automotive brands - all in one place. 
 
 ## 🌟 Overview
 
