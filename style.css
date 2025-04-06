@@ -991,29 +991,45 @@ footer p {
 
 /* Footer End  */
 
-/* Responsive Design for Phones */
+/* Improved Mobile Styles */
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
     header .mainTitle h1 {
-        font-size: 28px;
-        letter-spacing: 2px;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 1px;
     }
 
     nav {
         width: 100%;
         float: none;
-        padding-block: 10px;
         text-align: center;
+        padding-block: 10px;
+    }
+
+    nav ul {
+        padding: 0;
     }
 
     nav ul li {
-        display: inline-block;
-        margin: 0 10px;
+        display: block;
+        margin: 5px 0;
     }
 
     .homeLinks {
-        width: 90%;
-        margin: 0 auto;
-        top: 90px;
+        width: 100%;
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .homeLinks ul {
+        padding: 0;
     }
 
     .homeLinks ul li {
@@ -1023,20 +1039,21 @@ footer p {
     }
 
     .landing figure div {
-        width: 100vw;
+        width: 100%;
     }
 
     #loginForm {
         width: 90%;
+        margin: 20px auto;
         height: auto;
         padding: 20px;
+        box-sizing: border-box;
     }
 
     #loginForm .inputBox input,
     #loginForm #btn {
-        width: 80%;
-        margin: 10px auto;
-        display: block;
+        width: 100%;
+        margin: 10px 0;
     }
 
     .brands,
@@ -1045,8 +1062,10 @@ footer p {
     #AudiContent,
     .AudiModelsContent {
         width: 100%;
-        margin-left: 0;
+        margin: 0 auto;
         padding: 10px;
+        box-sizing: border-box;
+        float: none;
     }
 
     .brands div,
@@ -1054,38 +1073,38 @@ footer p {
     .brandContent .carModels,
     .modelsContent .modelsSlides > div,
     .AudiModelsContent .AudiSlides > div {
-        width: 100% !important;
-        margin: 10px auto;
-        float: none;
+        width: 100%;
+        margin: 10px 0;
         display: block;
+        float: none;
     }
 
     .modelsContent .modelsSearch,
     .AudiModelsContent .AudiSearch {
-        position: static;
         width: 100%;
+        margin-bottom: 20px;
+        position: relative;
         left: 0;
         transform: none;
-        margin-bottom: 20px;
+        text-align: center;
     }
 
-    .modelsContent .modelsSearch #searchInput,
-    .AudiModelsContent .AudiSearch input,
-    .modelsContent .modelsSearch #searchButton,
-    .AudiModelsContent .AudiSearch #searchButton,
+    .modelsContent .modelsSearch input,
+    .modelsContent .modelsSearch button,
     .modelsContent .modelsSearch .filter,
+    .AudiModelsContent .AudiSearch input,
+    .AudiModelsContent .AudiSearch button,
     .AudiModelsContent .AudiSearch .filter {
-        float: none;
-        display: block;
-        width: 80%;
+        width: 90%;
         margin: 10px auto;
+        display: block;
+        float: none;
     }
 
     .modelsContent .modelsSlides div img,
     .AudiModelsContent .AudiSlides div img {
         width: 100%;
         height: auto;
-        float: none;
         display: block;
         margin: 0 auto;
     }
@@ -1093,6 +1112,7 @@ footer p {
     .modelsContent .modelsSlides div .des,
     .AudiModelsContent .AudiSlides div .des {
         width: 100%;
+        margin-top: 10px;
         float: none;
     }
 }
