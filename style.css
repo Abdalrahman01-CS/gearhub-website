@@ -989,4 +989,37 @@ footer p {
     letter-spacing: 2px;
 }
 
+/* ===== Base Styles ===== */
+* {
+  box-sizing: border-box; /* Prevents overflow issues */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden; /* Hide horizontal scroll */
+}
+
+/* ===== Responsive Containers ===== */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Limits width on large screens */
+  margin: 0 auto;
+  padding: 0 15px; /* Padding on mobile */
+}
+
+/* ===== Mobile-First Media Queries ===== */
+@media (min-width: 768px) {
+  /* Tablet+ styles */
+  body {
+    font-size: 18px;
+  }
+  
+  .container {
+    padding: 0 30px;
+  }
+}
+
 /* Footer End  */
